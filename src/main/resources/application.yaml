@@ -1,0 +1,15 @@
+databases:
+  defaultDB: firstDB
+  configurations:
+    firstDB:
+      url: jdbc:oracle:thin:@192.168.5.146:1521:db
+      driver: oracle.jdbc.OracleDriver
+      username: MY_BASE
+      password: MY_BASE
+    secondDB:
+      url: jdbc:oracle:thin:@192.168.0.144:1521:db
+      driver: oracle.jdbc.OracleDriver
+      username: OTHER_BASE
+      password: OTHER_BASE
+server:
+  port: 8687
